@@ -1,0 +1,1 @@
+angular.module("acordocerto", ["ui.bootstrap", "ngTable", "angularUtils.directives.dirPagination"]);

@@ -1,0 +1,16 @@
+<head>
+  <meta charset="UTF-8">
+</head>
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal"  ng-click="cancel()" aria-label="Close">
+    	<span aria-hidden="true">×</span>
+    </button>
+    <h4 class="modal-title">Confirmação</h4>
+</div>
+<div class="modal-body">
+    <h3>Deseja limpar todos os campos da tela?</h3>
+</div>
+<div class="modal-footer">
+    <button id="btnClose" name="btnClose" class="btn btn-clean" type="button" ng-click="cancel()">NÃO</button>
+    <button id="btnOk" name="btnOk" class="btn btn-primary" type="button" ng-click="cleanFunction() || cancel()">SIM</button>
+</div>
